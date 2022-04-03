@@ -3,13 +3,13 @@
   <arg name="gui" default="true" />
   <arg name="paused" default="true" />
   <arg name="world" default="worlds/empty.world" />
-  <arg name="relay" default="true" />
-  <arg name="relay_c2" default="true" />
+  <arg name="relay" default="false" />
+  <arg name="relay_c2" default="false" />
   <arg name="rectify_kinect" default="true" />
   <arg name="num_worker_threads" default="4" />
-  <arg name="launch_pr2" default="true" />
+  <arg name="launch_pr2" default="false" />
   <arg name="map_frame" default="eng2" />
-  <arg name="launch_map" default="true" />
+  <arg name="launch_map" default="false" />
   <arg name="INITIAL_POSE_X" default="0.0" />
   <arg name="INITIAL_POSE_Y" default="0.0" />
   <arg name="INITIAL_POSE_Z" default="0.0" />
